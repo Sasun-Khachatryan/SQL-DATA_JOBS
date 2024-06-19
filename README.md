@@ -174,6 +174,8 @@ ORDER by
    
     LIMIT 25
 ```    
+! [Optimal Skills](assets\optimal skills.png)
+
 # What I learned
 - **Complex query crafting** 
 - **Data Aggregation**
