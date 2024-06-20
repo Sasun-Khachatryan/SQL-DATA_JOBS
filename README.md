@@ -50,6 +50,8 @@ AND salary_year_avg IS NOT NULL
 ORDER BY salary_year_avg DESC
 LIMIT 10
 ```
+![top paying jobs Visualization](assets/top%20paying%20jobs.png)
+
 
 ### 2. Top paying job skills.
 ``` sql
@@ -82,6 +84,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY 
     salary_year_avg DESC
 ```
+
 ### 3. Top demanded skills in data analyst joba market. 
 
 ```sql
@@ -98,6 +101,8 @@ GROUP BY skills
 ORDER BY demand_count DESC
 LIMIT 5
 ```
+![Top Demanded SKills](assets/top%20demanded%20skills.png)
+
 ### 4. Top paying skills in the date job market. 
 
 ```sql
@@ -174,7 +179,7 @@ ORDER by
    
     LIMIT 25
 ```    
-! [Optimal Skills](assets\optimal skills.png)
+![Optimal Skills](assets/optimal%20skills.png)
 
 # What I learned
 - **Complex query crafting** 
